@@ -1,0 +1,32 @@
+<workout_file>
+    <author>N.Hall</author>
+    <name>LSS</name>
+    <description>LSS with timings for Zones
+
+10min warmup
+30min Z2 (minimum  workout length)
+
+Then 15min sets of Z2 through to 2h</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="RECOVERY"/>
+        <tag name="TBB"/>
+    </tags>
+    <workout>
+        <Warmup Duration="620" PowerLow="0.24449998" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="644" message="First block in 30min in Z2"/>
+            <textevent timeoffset="644" message="First block in 30min in Z2"/>
+        </Warmup>
+        <SteadyState Duration="1800.0001" Power="0.65449995" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.50449997" pace="0"/>
+        <SteadyState Duration="900.00006" Power="0.65449995" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.5" pace="0"/>
+        <SteadyState Duration="900.00006" Power="0.65449995" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.50449997" pace="0"/>
+        <SteadyState Duration="900.00006" Power="0.65449995" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.50449997" pace="0"/>
+        <SteadyState Duration="900.00006" Power="0.65449995" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.50449997" pace="0"/>
+        <Cooldown Duration="900.00006" PowerLow="0.65449995" PowerHigh="0.25449997" pace="0"/>
+    </workout>
+</workout_file>
